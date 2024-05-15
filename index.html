@@ -1,0 +1,132 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Wandering Snake</title>
+  <link rel="stylesheet" href="/css/tws.css" />
+  <link rel="icon" href="/imgs/TWS_SVG/TWS_Isotipo.svg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/cf6f040faa.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <figure>
+        <img src="/imgs/TWS_SVG/TWS_Isotipo.svg" alt="Isotipo TWS." height="60px" />
+      </figure>
+      <div class="links">
+        <a class="exo-2-bold" href="index.html">Inicio</a>
+        <a class="exo-2-bold" href="#">Servicios</a>
+        <a class="exo-2-bold" href="#">Catálogo</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <section id="intro">
+        <div id="overlay"></div>
+        <figure id="imagotipo"><img src="imgs/TWS_SVG/TWS_Imagotipo White.svg" height="350" alt="Imagotipo TWS." /></figure>
+        <p class="raleway-regular">The Wandering Snake es una marca dedicada al servicio de ilustraciones personalizadas para diversos proyectos
+          creativos. Desde arte conceptual para videojuegos hasta ilustraciones para cuentos infantiles. </p>
+      </section>
+      <section id="misVis">
+        <div>
+          <h2 class="exo-2-bold">Misión</h2>
+          <p class="raleway-regular">
+            La misión de la empresa es proveer y promover ilustraciones
+            impresas con imágenes y material de calidad que sea apreciado
+            por los clientes que busquen la adquisición de productos visuales.
+          </p>
+        </div>
+        <div>
+          <h2 class="exo-2-bold">Visión</h2>
+          <p class="raleway-regular">
+            Una marca con presencia local la cual tiene diversidad de
+            productos con gran variedad de diseños e ilustraciones, así como la
+            capacidad de realizar pedidos personalizados para cada cliente.
+          </p>
+        </div>
+      </section>
+      <section id="reviews">
+        <div class="revCont">
+          <figure class="persona">
+            <img src="/imgs/human1.jpg" alt="Persona1" />
+          </figure>
+          <p class="raleway-regular">
+            "Increíble atención al detalle y talento excepcional. Quedé impresionada con la calidad y la creatividad de
+            las ilustraciones que recibí. ¡Definitivamente volveré para futuros proyectos!"
+          </p>
+        </div>
+        <div class="revCont">
+          <figure class="persona">
+            <img src="/imgs/human2.jpg" alt="Persona2" />
+          </figure>
+          <p class="raleway-regular">
+            "No solo capturó perfectamente mi visión, sino que también añadió su propio toque
+            único que elevó el resultado final. ¡Altamente recomendado para cualquier proyecto de diseño!"
+          </p>
+        </div>
+        <div class="revCont">
+          <figure class="persona">
+            <img src="/imgs/human3.jpg" alt="Persona3" />
+          </figure>
+          <p class="raleway-regular">
+            "¡Experiencia excepcional de principio a fin! La comunicación fue clara y receptiva, y el proceso de trabajo
+            fue fluido y eficiente. Estoy encantado con el resultado y ansiosa por colaborar de nuevo en el futuro."
+          </p>
+        </div>
+      </section>
+      <section id="contForm">
+        <form id="contactForm">
+          <h2 class="exo-2-bold" style="color: var(--colorClaro);">Contáctanos</h2>
+          <div class="form-group">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+        <div class="image-container">
+          <!--<img src="/imgs/Wagolbi-Render-Finished.png" alt="Render 3D de criatura.">-->
+        </div>
+      </section>
+    </article>
+  </main>
+  <footer>
+    <figure id="footerFig">
+      <img src="imgs/TWS_SVG/TWS_Imagotipo Black.svg" alt="Imagotipo Black TWS." height="100" />
+    </figure>
+    <div id="socialLinks">
+      <a href="https://www.instagram.com/tw.snake/"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.pinterest.com.mx/twsnake_art/"><i class="fa-brands fa-pinterest"></i></a>
+    </div>
+    <ul>
+      <li><a class="exo-2-bold" href="#">Inicio</a></li>
+      <li><a class="exo-2-bold" href="#">Servicios</a></li>
+      <li><a class="exo-2-bold" href="#">Catálogo</a></li>
+      <li><a class="exo-2-bold" href="privacy.html">Aviso de Privacidad</a></li>
+    </ul>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        var disclaimer = document.querySelector("img[alt='www.000webhost.com']");
+        if(disclaimer) {
+            disclaimer.remove();
+        }
+    });
+</script>
+</body>
+
+</html>
