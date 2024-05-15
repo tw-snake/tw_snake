@@ -15,7 +15,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("imgs/mercarius.png");
+  background-image: url("../imgs/mercarius.png");
   background-size: cover;
   background-position: 0 560px;
   background-attachment:fixed;
@@ -168,7 +168,7 @@ form button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("imgs/wagolbi.png");
+  background-image: url("../imgs/wagolbi.png");
   background-size: cover;
   background-position: center;
 }
