@@ -15,7 +15,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("https://github.com/tw-snake/tw_snake/blob/main/imgs/Mercarius_%C3%A1rbol.png");
+  background-image: url("imgs/Mercarius_árbol.png");
   background-size: cover;
   background-position: 0 560px;
   background-attachment:fixed;
