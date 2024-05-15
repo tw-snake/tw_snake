@@ -1,0 +1,184 @@
+@import url("general.css");
+
+#imagotipo{
+  z-index: 1;
+  flex-grow: 2;
+  display: flex;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center; /* Centrado vertical */
+  height: 400px;
+}
+
+#intro{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/imgs/Mercarius_árbol.png");
+  background-size: cover;
+  background-position: 0 560px;
+  background-attachment:fixed;
+}
+
+#intro p{
+  width: 40%;
+  padding-right: 5%;
+  color: whitesmoke;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+#overlay{
+  z-index: 0;
+  position: absolute;
+  background-color: black;
+  filter: opacity(0.7);
+  width: 100%;
+  height:inherit;
+}
+
+#misVis {
+  display: flex;
+  justify-content: space-between; /* Distribuye los elementos de forma equitativa */
+  max-width: 900px; /* Limita el ancho máximo para mantener el contenido legible */
+  margin: 0 auto; /* Centra la sección horizontalmente */
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding-bottom: 70px;
+  border-bottom: #8c0000 1px solid;
+}
+
+#misVis > div {
+  flex-basis: calc(50% - 20px); /* Toma la mitad del ancho disponible y resta el espacio entre las columnas */
+  padding: 20px; /* Agrega espacio alrededor del contenido */
+  box-sizing: border-box; /* Incluye el relleno y el borde en el ancho del elemento */
+}
+
+#misVis h2 {
+  color: var(--colorRojo); /* Color del texto */
+  font-size: 36px; /* Tamaño de fuente */
+  margin-bottom: 20px; /* Espacio inferior entre el título y el párrafo */
+}
+
+#misVis p {
+  color: var(--colorOscuro); /* Color del texto */
+  font-size: 17px; /* Tamaño de fuente */
+  line-height: 1.7; /* Espaciado entre líneas */
+}
+
+#reviews {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 0;
+  background-color: var(--colorRojo);
+}
+
+.revCont {
+  text-align: center;
+  padding: 50px;
+}
+
+.revCont:nth-of-type(2){
+  border-left: solid 2px var(--colorClaro);
+  border-right: solid 2px var(--colorClaro);
+}
+
+.persona {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 20px;
+}
+
+.persona img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.441); /* Añade sombra suave */
+}
+
+.revCont p {
+  color: var(--colorClaro);
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  #reviews {
+    flex-direction: column;
+  }
+}
+
+
+#contForm {
+  display: flex;
+}
+
+#contactForm {
+  background-color: var(--colorOscuro);
+  flex: 1;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  color: var(--colorClaro);
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 25px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea{
+  height: 150px;
+}
+
+form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: var(--colorRojo);
+  color: var(--colorClaro);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  color: var(--colorRojo);
+  background-color: var(--colorClaro);
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/imgs/Wagolbi-Render-Finished.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/*.image-container img {
+  max-width: 100%;
+  height: auto;
+}*/
+
+#correo{
+  margin: 0;
+}
+
