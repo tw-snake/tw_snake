@@ -168,7 +168,7 @@ form button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../../imgs/Wagolbi-Render-Finished.png");
+  background-image: url("https://github.com/tw-snake/tw_snake/blob/main/imgs/Wagolbi-Render-Finished.png");
   background-size: cover;
   background-position: center;
 }
